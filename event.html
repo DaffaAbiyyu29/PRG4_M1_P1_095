@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PENA 027</title>
+    <link rel="icon" type="image/jpg" href="images/logo_pena.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</head>
+
+<body class="vh-100 overflow-hidden">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand fs-4" href="index.html">PENA 027</a>
+            <!-- Toogle Button -->
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Sidebar -->
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel"
+                style="background-color: rgba(255, 255, 255, 0.15); backdrop-filter: blur(6px)">
+                <!-- Sidebar Header -->
+                <div class="offcanvas-header text-white border-bottom">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">PENA 027</h5>
+                    <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+
+                <!-- Sidebar Body -->
+                <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+                    <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link active" aria-current="page" href="event.html">Events</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="container w-100 vh-100 d-flex flex-column justify-content-center align-items-center text-white">
+            <div class="container"
+                style="text-align: center; background-color: rgba(67, 50, 50, 0.15); backdrop-filter: blur(10px); border-radius: 15px;">
+                <h1 style="font-size: 2.3rem;">Events</h1> <br>
+                <table class="table table-dark table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Event</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Location</th>
+                            <th scope="col">More</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Pembubaran Panitia 17 Agustus RW 027</td>
+                            <td>30 September 2023</td>
+                            <td>Villa Bukit Cipendawa, Puncak</td>
+                            <td><button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#detail1">
+                                    Details
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Peresmian Karang Taruna RW 027 Periode 2023/2026</td>
+                            <td>7 Oktober 2023</td>
+                            <td>Lapangan RW 027</td>
+                            <td><button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#detail1">
+                                    Details
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Rapat Bulanan Karang Taruna RW 027</td>
+                            <td>8 Oktober 2023</td>
+                            <td>Pendopo RT 002/027</td>
+                            <td><button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#detail1">
+                                    Details
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal fade" id="detail1" tabindex="-1" data-bs-keyboard="false" aria-labelledby="detail1Label"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="detail1Label">Details</h1>
+                    <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    The standard Lorem Ipsum passage, used since the 1500s
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum."
+                </div>
+                <div class="modal-footer">
+                    <button type="reset" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#form1">Form
+                        Persetujuan
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="form1" tabindex="-1" data-bs-keyboard="false" aria-labelledby="form1Label"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="form1Label">Form Persetujuan</h1>
+                    <button type="button" class="btn-close shadow-none" data-bs-toggle="modal" data-bs-target="#detail1"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="col-form-label">Nama:</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="ttl" class="col-form-label">Tempat Lahir:</label>
+                            <input type="text" class="form-control" id="ttl">
+                        </div>
+                        <div class="mb-3">
+                            <label for="ttl" class="col-form-label">Tempat Lahir:</label>
+                            <input type="date" class="form-control" id="tgllahir">
+                        </div>
+                        <div class="mb-3">
+                            <label for="alamat" class="col-form-label">Alamat:</label>
+                            <textarea class="form-control" id="alamat"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="gender" class="col-form-label">Jenis Kelamin:</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadio1"
+                                    value="RT1">
+                                <label class="form-check-label" for="exampleRadio1">
+                                    Laki - laki
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadio2"
+                                    value="RT2">
+                                <label class="form-check-label" for="exampleRadio2">
+                                    Perempuan
+                                </label>
+                            </div><br>
+                            <div class="mb-3">
+                                <label for="riwayatpenyakit" class="col-form-label">Riwayat Penyakit:</label><br>
+                                <input class="form-check-input" type="checkbox" id="asma">
+                                <label>Asma</label>
+                                <input class="form-check-input" type="checkbox" id="maag">
+                                <label>Maag</label>
+                                <input class="form-control" id="riwayatpenyakit" placeholder="Lainnya">
+                            </div>
+                            <div class="mb-3">
+                                <label for="rt" class="col-form-label">RT:</label>
+                                <div class="input-group mb-3">
+                                    <input type="text" id="selectedRT" class="form-control" placeholder="Pilih RT"
+                                        readonly>
+                                    <button class="btn btn-outline-secondary dropdown-toggle" type="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        RT
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#" data-value="RT 1">RT 1</a></li>
+                                        <li><a class="dropdown-item" href="#" data-value="RT 2">RT 2</a></li>
+                                        <li><a class="dropdown-item" href="#" data-value="RT 3">RT 3</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <hr>
+                            <label>Anak dari :</label>
+                            <div class="mb-3">
+                                <label for="wali" class="col-form-label">Nama Orang Tua / Wali:</label>
+                                <input type="text" class="form-control" id="wali">
+                            </div>
+                            <div class="mb-3">
+                                <label for="tlpwali" class="col-form-label">No Telp Orang Tua / Wali:</label>
+                                <input type="number" class="form-control" id="tlpwali">
+                            </div>
+                            <div class="mb-3">
+                                <label for="ttdwali" class="col-form-label">Tanda Tangan Orang Tua / Wali:</label>
+                                <input type="file" class="form-control" id="ttdwali">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="reset" class="btn btn-danger">Reset</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="detail2" tabindex="-1" data-bs-keyboard="false" aria-labelledby="detail2Label"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="detail2Label">Details</h1>
+                    <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    The standard Lorem Ipsum passage, used since the 1500s
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum."
+                </div>
+                <div class="modal-footer">
+                    <button type="reset" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#form1">Form
+                        Persetujuan
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript to update the input field when an RT is selected
+        document.querySelectorAll('.dropdown-item').forEach(function (item) {
+            item.addEventListener('click', function (e) {
+                e.preventDefault();
+                var selectedRT = e.target.getAttribute('data-value');
+                document.getElementById('selectedRT').value = selectedRT;
+            });
+        });
+    </script>
+</body>
+
+</html>
